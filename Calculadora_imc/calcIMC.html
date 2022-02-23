@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="assets/style__calcIMC.css" />
+  <title>Calculadora IMC</title>
+</head>
+
+<body>
+  <main>
+    <div id="calculator" class="flex">
+      <div class="title flex">
+        <h1>Calculadora IMC</h1>
+      </div>
+      <div class="inputGroup">
+        <label for="height">Altura</label>
+        <input id="height" type="number" placeholder="cm" min="0" />
+      </div>
+      <div class="inputGroup">
+        <label for="weight">Peso</label>
+        <input id="weight" type="number" placeholder="kg" min="0" />
+      </div>
+
+      <input id="button" type="button" value="Calcular" />
+      <div id="response"></div>
+    </div>
+    <span>
+      Calcule o seu Índice de Massa Corpórea e veja o resultado
+    </span>
+  </main>
+
+  <footer class="flex">
+    <p>&copy; 2021 <a href="https://www.linkedin.com/in/alancamposdeveloper/">AlanCampos</a></p>
+  </footer>
+
+  <script src="assets/script__calcIMC.js"></script>
+</body>
+
+</html>
